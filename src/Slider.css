@@ -1,0 +1,140 @@
+.slider{
+    overflow: hidden;
+}
+.slider figure{
+    position: relative;
+    /* display: inline-flex; */
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+.slider figure .img1,
+.slider figure .img2,
+.slider figure .img3,
+.slider figure .img4,
+.slider figure .img5 {
+    width: 20%;
+    float: left;
+}
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    /* 100%{
+        left: -400%;
+    } */
+    }
+.img1{
+    background-image: url(./Pages/Smartlux3.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.word-slide{
+    background-color: rgba(240, 255, 255, 0.521);
+    width: 0;
+    height: 100vh;
+    background-size: cover;
+    animation-name: mymove;
+    animation-duration: 5s ;
+    animation-timing-function: ease;
+  
+}
+@keyframes mymove{
+    from{
+        width: 0%;
+
+
+    }
+    to{
+        width: 50%;
+
+    }
+    /* 0%{
+        width: 0;
+        left: 0; */
+        /* animation-timing-function: ease; */
+    /* }
+    20%{
+        width: 50%;
+        left: 0; 
+    } */
+
+    /* 25%{
+        left: -100%;
+        width: 110%;
+    } */
+    /* 45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    } */
+}
+.word-sizing{
+    position: relative;
+    width: 200%;
+    margin: 0;
+    right: 0;
+}
+.img2{
+    background-image: url(./Pages/smartlux2.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.img3{
+    background-image: url(./Pages/garage.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-image: linear-gradient(to right, rgb(7, 4, 4) 35%, transparent 130%), url(./Pages/garage.png);
+}
+.img4{
+    background-image: url(./Pages/Smart.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.img5{
+    background-image: url(./Pages/garage.png);
+    width: 100%;
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-size: cover;
+}

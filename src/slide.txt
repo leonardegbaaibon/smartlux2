@@ -1,0 +1,71 @@
+ var counter1 = 1;
+  setInterval(function () {
+    document.getElementById("radio" + counter1).checked = true;
+    counter1++;
+    if (counter1 > 3) {
+      counter1 = 1;
+    }
+  }, 10000);
+
+  return (
+    <div>
+      <hr />.
+      <div className="slide-body">
+        {/* image slider start */}
+        <div className="slider">
+          <div className="slides">
+            {/* radio button start */}
+            <input type="radio" name="radio-btn" id="radio1" />
+            <input type="radio" name="radio-btn" id="radio2" />
+            <input type="radio" name="radio-btn" id="radio3" />
+            {/* radio button end */}
+            <div className="slide first" id="opaque-width">
+              <div className="mymove" id="mymove1">
+                <b className="b-word">Meadow Villa</b>
+                <button className="btn-slide1">View Project</button>
+                <b className="b-word1">Orchid Apartment</b>
+                <b className="b-word2">Egbaaibon's House</b>
+              </div>
+              {/* <b className="b-word">
+                  Meadow Villa
+              </b> */}
+              {/* <b className="b-word1">
+                  Orchid Apartment
+              </b>
+              <b className="b-word2">
+                  Egbaaibon's House
+              </b> */}
+            </div>
+            <div className="slide" id="opaque-width2">
+              <div className="mymove2">
+                <b className="b2-word">Orchid Apartment</b>
+                <button className="btn-slide2">View Project</button>
+              </div>
+            </div>
+            <div className="slide" id="opaque-width3">
+              <div className="mymove3">
+                <b className="b3-word">Egbaaibon's House</b>
+                <button className="btn-slide3">View Project</button>
+              </div>
+            </div>
+
+            <div className="navigation-auto">
+              <div className="auto-btn1">1</div>
+              <div className="auto-btn2">2</div>
+              <div className="auto-btn3">3</div>
+            </div>
+          </div>
+
+          <div className="navigation-manual">
+            <label for="radio1" className="manual-btn">
+              1
+            </label>
+            <label for="radio2" className="manual-btn">
+              2
+            </label>
+            <label for="radio3" className="manual-btn">
+              3
+            </label>
+          </div>
+        </div>
+      </div>

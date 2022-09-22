@@ -1,0 +1,733 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+.body{
+  overflow-x: hidden;
+}
+.nav-bar{
+    display: flex;
+
+}
+.body-div{
+  overflow-x: hidden;
+}
+.slide-div{
+  width: 100%;
+}
+.logo-div{
+    flex: 50%;
+
+}
+.project-div,.about-div,.contact-div,.news-div,.service-div{
+text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li link {
+  display: block;
+  padding: 30px;
+  background-color: FFFFFF;
+  text-decoration: none;
+  color: black;
+}
+li link:hover {
+    color:rgb(230, 159, 29);
+    transition: 0.4s;
+}
+.vill1,.vill2,.vill3{
+  font-weight:bold;
+  font-size: 60px;
+  color: rgb(196, 9, 3);
+  animation-name: slidein;
+  animation-duration: 3s;
+}
+  @keyframes slidein {
+    from {
+      margin-bottom: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+  .App-logo {
+    /* height: 40vmin; */
+    pointer-events: none;
+  }
+  img{
+    height: 17cm;
+    width: 135ch;
+  }
+  .image1-div{
+    margin-top: 20px;
+    padding: 11%;
+    height:100;
+    width: 100%;
+    position: relative;
+  }
+  .slide2-div{
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.411) 50%,transparent 50%), url(./smartlux2.png);
+      background-size:cover;
+    }
+    .slide1-div{
+      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.411) 50%,transparent 50%), url(./Smart.png);
+      background-size: contain;
+    }
+    .slide3-div{
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.411) 50%,transparent 50%), url(./Smartlux3.png);
+    background-size: contain;
+    height:10%;
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+  .each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+  }
+  
+  
+  .each-slide span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  }
+  .logo1-div{
+    position:absolute;
+    width: 100px;
+    height: 70px;
+    margin: 4px;
+    top: 0.5%;
+    left: 8%;
+  }
+  .icon-div{
+    background-color: black;
+    color: white;
+    padding: 0.5%;
+  }
+  i{
+    padding: 1%;
+  }
+  .icon-div i:hover{
+    color:rgb(241, 180, 11);
+  }
+  .pro-div{
+    display:inline-flex;
+  }
+ link i {
+  padding: 5%;
+ }
+ .projectbutton-div{
+   padding: 15% 5% 5% 5%;
+ }
+ .project-button{
+   background-color: rgb(196, 9, 3);
+   border: 0px ;
+   padding: 2% 4% 2% 4% ;
+   font-weight:600;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   border-radius: 5px 5px 5px 5px;
+   display: inline-flex;
+   cursor: pointer;
+ }
+ .project-button i{
+   float: right;
+ }
+ .view-project{
+   width: 3cm;
+ }
+ .project-button:hover{
+  background-color: rgb(241, 58, 52);
+}
+ /* .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+} */
+.Project-div{
+  padding: 5%;
+  text-align: center;
+}
+.project1-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0% 13% 8% 13%;
+}
+.orch{
+  margin-left: 50px;
+}
+.meadow1-div{
+ flex: 50%;
+ width: 600px;
+ height: 500px;
+ margin-right: 50px;
+ transition: transform .6s;
+ background-size: contain;
+ border-radius: 5%;
+}
+.meadow1-div:hover{
+  transform: scale(1.1);
+  opacity: 0.9;
+  cursor: grabbing;
+}
+.meadow2-div{
+ flex: 50%;
+ width: 600px;
+ height: 500px;
+ margin-left: 50px;
+ transition: transform .6s;
+ border-radius: 5%;
+}
+.meadow2-div:hover{
+  transform: scale(1.1);
+  opacity: 0.9;
+  cursor: grabbing;
+
+}
+/* .serve1-div,.serve2-div{
+  display: grid;
+} */
+.About-div{
+  padding: 5%;
+  text-align: center;
+}
+.services-div{
+  padding: 5% 5% 1% 5%;
+  text-align: center;
+}
+.meadowtext1-div, .orch{
+  padding: 1cm;
+}
+.pro-div{
+  background-size: cover;
+  z-index: auto;
+}
+.jimo-develop{
+  width: 50%;
+  height: 50%;
+}
+.about-us{
+  display: flex;
+  padding: 1% 10% 10% 10%;
+}
+.about-text{
+  padding: 5%;
+  display: grid;
+}
+.services{
+  width: 40%;
+  height: 10%;
+}
+.service1-div, .service2-div{
+  display: flex;
+  padding: 5%;
+}
+.service1-h3,.service2-h3{
+  padding: 0% 3% 3% 3%;
+}
+.prop-div,.manage-div{
+  padding: 4%;
+}
+.seperate-footer{
+  display: flex;
+  /* background-color: aquamarine; */
+}
+.footer-div{
+  background-size: contain;
+  background-image: url(./garage.png);
+  background-image: linear-gradient(to right, rgb(7, 4, 4) 35%,transparent 130%), url(./garage.png);
+
+}
+.contact-div{
+  flex: 50%;
+  display: grid;
+}
+.newsletter-div{
+  flex: 50%;
+  display: grid;
+}
+.all-icon{
+  display: grid;
+  color: antiquewhite;
+
+}
+.all-icon i{
+  width: 85%;
+  font-size: 30px;
+  
+}
+.marker-div,.phone-div,.envelope-div,.whatsapp-div{
+  display: flex;
+  margin-top: 3%;
+}
+.marker-div i,.phone-div i,.envelope-div i,.whatsapp-div i{
+  width: 5%;
+  margin-left: 5%;
+  font-weight: 900;
+}
+.contact-p,.latest-div{
+  margin-left: 8%;
+  margin-right: 9%;
+  color: antiquewhite;
+  font-weight: 800;
+}
+.h3-connect,.h3-contact,.h3-newsletter,.latest-div{
+  margin: 3%;
+  color: antiquewhite;
+}
+.name-div,.email-div{
+  width: 50%;
+  margin: 1%;
+  height: 60%;
+  padding: 0.5%;
+  border-radius: 0% 20% 0% 20%;
+  border: 0px;
+}
+.subscribe-button{
+  margin: 2%;
+  padding: 2% 5% 2% 5%;
+  background-color: red;
+  border: 0px;
+  border-radius: 10%;
+}
+.subscribe-button:hover{
+  background-color: rgb(226, 99, 99);
+  cursor:grab;
+}
+.social-icon{
+  display: flex;
+  justify-content: center;
+  color: antiquewhite;
+}
+.instagram-div,.facebook-div,.twitter-div,.linkedin-div{
+  padding: 2%;
+  font-size: 30px;
+}
+.instagram-div{
+  color: rgb(245, 243, 243);
+  margin: 0%;
+  height: 0%;
+}
+.hr-div{
+  width: 70%;
+  margin: 0% 0% 0% 15%;
+}
+.reserved-div{
+  color:antiquewhite;
+  text-align: center;
+  padding: 1.5%;
+}
+  /* @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  } */
+  
+
+
+
+
+
+
+
+
+
+
+
+  .slide-body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: rgb(57, 247, 247);
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.slider{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.slides{
+    width: 340%;
+    height: 100%;
+    display: flex;
+    /* overflow-x: hidden; */
+}
+
+.slides input{
+    display: none;
+}
+.slide{
+    width: 30%;
+    transition: 2s;
+
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+#opaque-width{
+    background-image:url(./garage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+#opaque-width2{
+    background-image:url(./smartlux2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+#opaque-width3{
+    background-image:url(./Smartlux3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+/* css for manual slide navigation */
+.navigation-manual{
+    position: absolute;
+    width: 100%;
+    top: 90%;
+    display: flex;
+    justify-content: center;
+
+
+}
+.manual-btn{
+    border: 4px solid rgb(245, 234, 86);
+    padding: 1%;
+    border-radius: 17px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 100px;
+}
+
+.manual-btn:hover{
+    background: rgb(247, 2, 2);
+    box-shadow: 2px 2px 2px 2px rgb(245, 234, 86);
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+
+}
+#radio2:checked ~ .first{
+    margin-left: -30%;
+    
+}
+#radio3:checked ~ .first{
+    margin-left: -60%;
+    
+}
+
+/* css for automatic navigation */
+
+
+.navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    top: 90%;
+}
+.navigation-auto div{
+    border: 4px solid rgb(250, 222, 63);
+    box-shadow: 2px 2px 6px 6px rgb(245, 234, 86);
+    padding: 1%;
+    border-radius: 18px;
+    transition: 1s;
+}
+.navigation-auto div:not(:last-child){
+    margin-right: 100px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background: rgb(247, 2, 2);
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background: rgb(247, 2, 2);
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background: rgb(247, 2, 2);
+}
+
+#radio1:checked ~ #opaque-width .mymove{
+    animation-name: slideinx;
+    animation-duration:3s;
+    background-color: rgba(240, 248, 255, 0.432);
+    width: 38.5%;
+    height: 100%;
+    left: 0;
+}
+@keyframes slideinx{
+    from{
+        width: 0;
+    }
+    to{
+        width: 38.5%;
+    }
+}
+.mymove{
+  justify-content:space-around;
+  display: grid;
+}
+#opaque-width .mymove .b-word{
+    font-size: 50px;
+    position: absolute;
+    width: 20cm;
+    padding: 5%;
+    visibility: visible;
+    color: rgb(209, 3, 3);
+    top:4cm;
+    /* left: 1cm; */
+    /* padding: 10%; */
+    overflow: hidden;
+}
+#opaque-width .mymove .b-word1{
+    position: absolute;
+    top: 8cm;
+    font-size: 50px;
+    width: 20cm;
+    padding: 5%;
+    color: rgb(209, 3, 3);
+}
+#opaque-width .mymove .b-word2{
+    position: absolute;
+    top: 12cm;
+    font-size: 50px;
+    width: 50%;
+    padding: 5%;
+    color: rgb(209, 3, 3);
+
+}
+#radio1:checked ~ #opaque-width .b-word1,#radio1:checked ~ #opaque-width .b-word2{
+    visibility: hidden;
+}
+#radio1:checked ~ #opaque-width .mymove .b-word{
+
+    position: absolute;
+    animation-name: within;
+    animation-duration:4s;
+    width: 50%;
+    /* padding: 10%; */
+    /* padding-right: 0%; */
+    top: 4cm;
+    color: rgb(221, 8, 8);
+    overflow: hidden;
+}
+@keyframes within{
+    from{
+        width: 0%;
+        /* position: absolute; */
+        /* overflow: hidden; */
+    }
+    to{
+        width: 50%;
+        /* position: absolute; */
+        /* overflow: hidden; */
+        /* right: 5cm; */
+    }
+}
+#radio2:checked ~ #opaque-width .mymove .b-word,#radio2:checked ~ #opaque-width .b-word1,#radio2:checked ~ #opaque-width .b-word2{
+    visibility: hidden;
+}
+#radio2:checked ~ #opaque-width2 .mymove2{
+    animation-name: slidein1;
+    animation-duration:3s;
+    background-color: rgba(240, 248, 255, 0.432);
+    width: 38.5%;
+    height: 100%;
+}
+@keyframes slidein1{
+    from{
+        width: 0;
+    }
+    to{
+        width: 38.5%;
+    }
+}
+#opaque-width2 .mymove2 .b2-word{
+    font-size: 50px;
+    width: 50%;
+    position: absolute;
+    visibility: hidden;
+    color: rgb(211, 3, 3);
+    top: 4cm;
+    padding: 5%;
+    overflow-x: hidden;
+}
+#radio2:checked ~ #opaque-width2 .mymove2 .b2-word{
+    position: absolute;
+    animation-name: within2;
+    animation-duration: 7s;
+    visibility: visible;
+    width: 50%;
+    top: 4cm;
+}
+@keyframes within2{
+    from{
+        width: 0%;
+        /* position: absolute; */
+        /* overflow: hidden; */
+        visibility: visible;
+    }
+    to{
+        width: 50%;
+        /* position: absolute; */
+        /* overflow: hidden; */
+        visibility: visible;
+    }
+}
+#radio3:checked ~ #opaque-width .mymove .b-word{
+    visibility: hidden;
+}
+#radio3:checked ~ #opaque-width3 .mymove3{
+    animation-name: slidein2;
+    animation-duration:3s;
+    background-color: rgba(240, 248, 255, 0.432);
+    width: 38.5%;
+    height: 100%;
+}
+@keyframes slidein2{
+    from{
+        width: 0;
+    }
+    to{
+        width: 38.5%;
+    }
+}
+#opaque-width3 .mymove3 .b3-word{
+    font-size: 50px;
+    position: absolute;
+    visibility: hidden;
+    width: 50%;
+    top: 4cm;
+    padding: 5%;
+    color: rgb(211, 3, 3);
+    overflow: hidden;
+}
+#radio3:checked ~ #opaque-width3 .mymove3 .b3-word{
+    position: absolute;
+    animation-name: within3;
+    animation-duration: 10s;
+    visibility: visible;
+    width: 50%;
+    top: 4cm;
+}
+@keyframes within3{
+    from{
+        width: 0%;
+        /* position: absolute; */
+        overflow: hidden;
+        visibility: visible;
+    }
+    to{
+        width: 50%;
+        position: absolute;
+        overflow: hidden;
+        visibility: visible;
+    }
+}
+
+
+#radio2:checked ~ #opaque-width .mymove{
+    visibility: hidden;
+}
+.mymove{
+    animation-name: slide;
+    animation-iteration-count: 1;
+    animation-duration: 4s;
+    background-color: rgba(240, 248, 255, 0.336);
+    width: 38.5%;
+    height: 100%;
+    /* animation-delay: 1s, 40000s; */
+
+}
+
+@keyframes slide{
+    from{
+        /* width: 0; */
+        height: 0;
+    }
+    to{
+        /* width: 38.5%; */
+        height: 100%;
+    }
+    
+}
+
+
+/* button css */
+
+.btn-slide1,.btn-slide2,.btn-slide3{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size:15px;
+  font-weight: 500;
+  position: absolute;
+  top: 12.5cm;
+  width: 10%;
+  height: 7%;
+  background-color: rgb(209, 3, 3);
+  left: 4cm;
+  visibility: hidden;
+  border: 0px;
+  border-radius: 10px;
+}
+.btn-slide1:hover,.btn-slide2:hover,.btn-slide3:hover{
+  /* box-shadow: 2px 2px 6px 6px rgb(245, 234, 86); */
+  background-color: rgb(247, 247, 56);
+  color: rgb(194, 4, 4);
+  cursor: pointer;
+
+}
+#radio2:checked ~ #opaque-width .mymove .btn-slide1{
+  visibility: hidden;
+}
+#radio1:checked ~ #opaque-width .mymove .btn-slide1{
+  visibility: visible;
+}
+#radio2:checked ~ #opaque-width2 .mymove2 .btn-slide2{
+  visibility: visible;
+}
+#radio3:checked ~ #opaque-width3 .mymove3 .btn-slide3{
+  visibility: visible;
+}

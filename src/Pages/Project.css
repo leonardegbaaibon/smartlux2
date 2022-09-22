@@ -1,0 +1,455 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+.nav-bar{
+    display: flex;
+
+}
+.body-div{
+  overflow-x: hidden;
+}
+.slide-div{
+  width: 100%;
+}
+.logo-div{
+    flex: 50%;
+
+}
+.project-div,.about-div,.contact-div,.news-div,.service-div{
+text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 30px;
+  background-color: FFFFFF;
+  text-decoration: none;
+  color: black;
+}
+li a:hover {
+    color:rgb(230, 159, 29);
+    transition: 0.4s;
+}
+.vill1,.vill2,.vill3{
+  font-weight:bold;
+  font-size: 60px;
+  color: rgb(196, 9, 3);
+  animation-name: slidein;
+  animation-duration: 3s;
+}
+  @keyframes slidein {
+    from {
+      margin-bottom: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+  .App-logo {
+    /* height: 40vmin; */
+    pointer-events: none;
+  }
+  img{
+    height: 17cm;
+    width: 135ch;
+  }
+  .image1-div{
+    margin-top: 20px;
+    padding: 11%;
+    height:100;
+    width: 100%;
+    position: relative;
+  }
+  .slide2-div{
+    background-image: url(./smartlux2.png);
+  }
+  .slide1-div{
+    background-image: url(./Smart.png);
+  }
+  .slide3-div{
+    background-image: url(./Smartlux3.png);
+    background-size: contain;
+    height:10%;
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+  .each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+  }
+  
+  
+  .each-slide span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  }
+  .logo1-div{
+    position:absolute;
+    width: 100px;
+    height: 70px;
+    margin: 4px;
+    top: 0.5%;
+    left: 8%;
+  }
+  .icon-div{
+    background-color: black;
+    color: white;
+    padding: 0.5%;
+  }
+  i{
+    padding: 1%;
+  }
+  .icon-div i:hover{
+    color:rgb(241, 180, 11);
+  }
+  .pro-div{
+    display:inline-flex;
+  }
+ a i {
+  padding: 5%;
+ }
+ .projectbutton-div{
+   padding: 15% 5% 5% 5%;
+ }
+ .project-button{
+   background-color: rgb(196, 9, 3);
+   border: 0px ;
+   padding: 2% 4% 2% 4% ;
+   font-weight:600;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   border-radius: 5px 5px 5px 5px;
+   display: inline-flex;
+   cursor: pointer;
+ }
+ .project-button i{
+   float: right;
+ }
+ .view-project{
+   width: 3cm;
+ }
+ .project-button:hover{
+  background-color: rgb(241, 58, 52);
+}
+ /* .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+} */
+.Project-div{
+  padding: 5%;
+  text-align: center;
+}
+.project1-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0% 13% 8% 13%;
+}
+.orch{
+  margin-left: 50px;
+}
+.meadow1-div{
+ flex: 50%;
+ width: 600px;
+ height: 500px;
+ margin-right: 50px;
+ transition: transform .6s;
+ background-size: contain;
+ border-radius: 5%;
+}
+.meadow1-div:hover{
+  transform: scale(1.1);
+  opacity: 0.9;
+  cursor: grabbing;
+}
+.meadow2-div{
+ flex: 50%;
+ width: 600px;
+ height: 500px;
+ margin-left: 50px;
+ transition: transform .6s;
+ border-radius: 5%;
+}
+.meadow2-div:hover{
+  transform: scale(1.1);
+  opacity: 0.9;
+  cursor: grabbing;
+
+}
+/* .serve1-div,.serve2-div{
+  display: grid;
+} */
+.About-div{
+  padding: 5%;
+  text-align: center;
+}
+.services-div{
+  padding: 5% 5% 1% 5%;
+  text-align: center;
+}
+.meadowtext1-div, .orch{
+  padding: 1cm;
+}
+.pro-div{
+  background-size: cover;
+  z-index: auto;
+}
+.jimo-develop{
+  width: 50%;
+  height: 50%;
+}
+.about-us{
+  display: flex;
+  padding: 1% 10% 10% 10%;
+}
+.about-text{
+  padding: 5%;
+  display: grid;
+}
+.services{
+  width: 40%;
+  height: 10%;
+}
+.service1-div, .service2-div{
+  display: flex;
+  padding: 5%;
+}
+.service1-h3,.service2-h3{
+  padding: 0% 3% 3% 3%;
+}
+.prop-div,.manage-div{
+  padding: 4%;
+}
+/* .seperate-footer{
+  display: flex;
+} */
+.footer-div{
+  background-size: contain;
+  background-image: url(./garage.png);
+  background-image: linear-gradient(to right, rgb(7, 4, 4) 35%,transparent 130%), url(./garage.png);
+
+}
+.contact-div{
+  flex: 50%;
+  display: grid;
+}
+.newsletter-div{
+  flex: 50%;
+  display: grid;
+}
+.all-icon{
+  display: grid;
+  color: antiquewhite;
+
+}
+.all-icon i{
+  width: 85%;
+  font-size: 30px;
+  
+}
+.marker-div,.phone-div,.envelope-div,.whatsapp-div{
+  display: flex;
+  margin-top: 3%;
+}
+.marker-div i,.phone-div i,.envelope-div i,.whatsapp-div i{
+  width: 5%;
+  margin-left: 5%;
+  font-weight: 900;
+}
+.contact-p,.latest-div{
+  margin-left: 8%;
+  margin-right: 9%;
+  color: antiquewhite;
+  font-weight: 800;
+}
+.h3-connect,.h3-contact,.h3-newsletter,.latest-div{
+  margin: 3%;
+  color: antiquewhite;
+}
+.name-div,.email-div{
+  width: 50%;
+  margin: 1%;
+  height: 60%;
+  padding: 0.5%;
+  border: 0px;
+}
+.subscribe-button{
+  margin: 2%;
+  padding: 2% 5% 2% 5%;
+  background-color: red;
+  border: 0px;
+  border-radius: 10%;
+}
+.subscribe-button:hover{
+  background-color: rgb(226, 99, 99);
+  cursor:grab;
+}
+.social-icon{
+  display: flex;
+  justify-content: center;
+  color: antiquewhite;
+}
+.instagram-div,.facebook-div,.twitter-div,.linkedin-div{
+  padding: 2%;
+  font-size: 30px;
+}
+.instagram-div{
+  color: rgb(245, 243, 243);
+  margin: 0%;
+  height: 0%;
+}
+.hr-div{
+  width: 70%;
+  margin: 0% 0% 0% 15%;
+}
+.reserved-div{
+  color:antiquewhite;
+  text-align: center;
+  padding: 1.5%;
+}
+  /* @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  } */
+
+  .flex-projectitems{
+    display: flex;
+    justify-content: center;
+  }
+  .overview,.features,.payment,.details{
+    margin: 4%;
+    padding: 1%;
+    font-size: 0.6cm;
+    border-radius: 10px;
+    border: 1px solid rgb(182, 170, 2);
+  }
+  .overview:hover,.features:hover,.payment:hover,.details:hover{
+    background-color: rgb(212, 3, 3);
+    border: 1px solid rgb(212, 3, 3) ;
+    color: white;
+  }
+  .main-overview{
+    display: flex;
+  }
+  .overview-div,.home-div{
+    display: grid;
+    flex: 50%;
+  }
+  .overview-video{
+    flex: 50%;
+  }
+  .overview-topic{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+    padding: 5%;
+  }
+  .overview-word{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 6%;
+  }
+  .overview-video{
+    font-size: 200px;
+    text-align: center;
+    background-color: aliceblue;
+    padding-top: 5%;
+  }
+  .main-features,.main-home{
+    display: flex;
+  }
+  .features-div{
+    flex: 50%;
+    display: grid;
+    height: 8cm;
+  }
+  .features-image,.home-image{
+    display: grid;
+    padding: 3%;
+    flex: 50%;
+  }
+  .features-img1 img,.features-img2 img{
+    width: 90%;
+    height: 90%;
+    border-radius: 10%;
+  }
+.features-word,.home-word,.payment-word{
+  font-size: 20px;
+  font-weight: 500;
+  grid: 10%;
+  padding: 6%;
+}
+.features-topic,.home-topic,.payment-topic{
+  font-size: 30px;
+  text-align: center;
+  font-weight: 500;
+  grid: 90%;
+  padding-top: 6%;
+}
+.btn-inspection,.btn-whatsapp,.btn-brochure,.btn-application{
+  padding: 2%;
+  color: white;
+  cursor: pointer;
+  background-color: rgb(190, 4, 4);
+  border: 0px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 5%;
+
+}
+.btn-inspection:hover,.btn-whatsapp:hover,.btn-brochure:hover,.btn-application:hover{
+  background-color: yellow;
+  color: rgb(233, 3, 3);
+}
+.inspection-div{
+  display: flex;
+  width: 100%;
+  justify-content: end;
+  align-items: center;
+}
+.main-payment{
+  display: grid;
+}
+.payment-div{
+  display: grid;
+  width: 50%;
+}
+.download-btn{
+  display: flex;
+}
+.btn-whatsapp,.btn-application,.btn-brochure{
+  flex: 33.33%;
+}
