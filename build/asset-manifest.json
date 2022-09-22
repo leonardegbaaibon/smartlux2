@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3777d861.css",
+    "main.js": "/static/js/main.b1a82780.js",
+    "static/js/787.6e21395b.chunk.js": "/static/js/787.6e21395b.chunk.js",
+    "static/media/Smartlux3.png": "/static/media/Smartlux3.9fdd769eb79c2c3f431e.png",
+    "static/media/smartlux2.png": "/static/media/smartlux2.0394e97df1bb4a7f982b.png",
+    "static/media/garage.png": "/static/media/garage.4990aabec495979099d8.png",
+    "static/media/Smart.png": "/static/media/Smart.f66380f05e3bbcfb9a07.png",
+    "static/media/twittericon.png": "/static/media/twittericon.2486ac94c727102662ee.png",
+    "static/media/facebookicon.jpeg": "/static/media/facebookicon.ad12c2106569d26b6e81.jpeg",
+    "static/media/Group 407.png": "/static/media/Group 407.a79a4f703873e1142378.png",
+    "static/media/Instagramicon2.jpeg": "/static/media/Instagramicon2.11acf9b44d003222e5f7.jpeg",
+    "static/media/linkedinicon.jpeg": "/static/media/linkedinicon.88f02ed73baebdb434ef.jpeg",
+    "index.html": "/index.html",
+    "main.3777d861.css.map": "/static/css/main.3777d861.css.map",
+    "main.b1a82780.js.map": "/static/js/main.b1a82780.js.map",
+    "787.6e21395b.chunk.js.map": "/static/js/787.6e21395b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3777d861.css",
+    "static/js/main.b1a82780.js"
+  ]
+}
