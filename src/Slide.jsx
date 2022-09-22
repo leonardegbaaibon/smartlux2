@@ -8,6 +8,7 @@ import "./Slider.css"
 
 
 
+
 const Slider = () => {
   return (
       
@@ -18,6 +19,7 @@ const Slider = () => {
               <div className="word-slide">
                   <div className="word-sizing">
                     <p>itytytiutygygygygygygiygygiygygyigygygygyigygy</p>
+                    lock
               </div>
           </div>
           </div>
